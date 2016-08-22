@@ -656,7 +656,7 @@ public class CveDB {
             }
             LOGGER.error("Unable to access the local database.\n\nEnsure that '{}' is a writable directory. "
                     + "If the problem persist try deleting the files in '{}' and running {} again. If the problem continues, please "
-                    + "create a log file (see documentation at http://jeremylong.github.io/DependencyCheck/) and open a ticket at "
+                    + "create a log file (see documentation at https://jeremylong.github.io/DependencyCheck/) and open a ticket at "
                     + "https://github.com/jeremylong/DependencyCheck/issues and include the log file.\n\n",
                     dd, dd, Settings.getString(Settings.KEYS.APPLICATION_NAME));
             LOGGER.debug("", ex);

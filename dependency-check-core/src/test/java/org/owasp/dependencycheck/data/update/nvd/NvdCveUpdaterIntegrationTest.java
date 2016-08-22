@@ -42,11 +42,11 @@ public class NvdCveUpdaterIntegrationTest extends BaseTest {
             String modified20 = baseURL.replace("nvdcve-2.0-2014.xml", "nvdcve-2.0-modified.xml");
             String full12 = baseURL.replace("nvdcve-2.0-2014.xml", "nvdcve-%d.xml");
             String full20 = baseURL.replace("nvdcve-2.0-2014.xml", "nvdcve-2.0-%d.xml");
-//        cve.url-1.2.modified=http://nvd.nist.gov/download/nvdcve-modified.xml
-//        cve.url-2.0.modified=http://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-modified.xml
+//        cve.url-1.2.modified=https://nvd.nist.gov/download/nvdcve-modified.xml
+//        cve.url-2.0.modified=https://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-modified.xml
 //        cve.startyear=2014
-//        cve.url-2.0.base=http://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-%d.xml
-//        cve.url-1.2.base=http://nvd.nist.gov/download/nvdcve-%d.xml
+//        cve.url-2.0.base=https://static.nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-%d.xml
+//        cve.url-1.2.base=https://nvd.nist.gov/download/nvdcve-%d.xml
 
             Settings.setString(Settings.KEYS.CVE_MODIFIED_12_URL, modified12);
             Settings.setString(Settings.KEYS.CVE_MODIFIED_20_URL, modified20);
